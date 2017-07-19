@@ -16,6 +16,7 @@
 		767366941F1EDC8300D0E18D /* Colors_With_NavigationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767366931F1EDC8300D0E18D /* Colors_With_NavigationUITests.swift */; };
 		767366A21F1EDD4D00D0E18D /* ColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767366A11F1EDD4D00D0E18D /* ColorsViewController.swift */; };
 		767366A41F1EDE6500D0E18D /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767366A31F1EDE6500D0E18D /* Colors.swift */; };
+		767366A61F1EE19000D0E18D /* ColorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767366A51F1EE19000D0E18D /* ColorDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		767366951F1EDC8300D0E18D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		767366A11F1EDD4D00D0E18D /* ColorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorsViewController.swift; sourceTree = "<group>"; };
 		767366A31F1EDE6500D0E18D /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		767366A51F1EE19000D0E18D /* ColorDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,13 +104,14 @@
 			isa = PBXGroup;
 			children = (
 				767366701F1EDC8300D0E18D /* AppDelegate.swift */,
-				767366741F1EDC8300D0E18D /* Main.storyboard */,
 				767366A11F1EDD4D00D0E18D /* ColorsViewController.swift */,
+				767366A51F1EE19000D0E18D /* ColorDetailViewController.swift */,
+				767366A31F1EDE6500D0E18D /* Colors.swift */,
+				767366741F1EDC8300D0E18D /* Main.storyboard */,
 				7673667A1F1EDC8300D0E18D /* Assets.xcassets */,
 				7673667C1F1EDC8300D0E18D /* LaunchScreen.storyboard */,
 				7673667F1F1EDC8300D0E18D /* Info.plist */,
 				767366771F1EDC8300D0E18D /* Colors_With_Navigation.xcdatamodeld */,
-				767366A31F1EDE6500D0E18D /* Colors.swift */,
 			);
 			path = "Colors With Navigation";
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				767366711F1EDC8300D0E18D /* AppDelegate.swift in Sources */,
 				767366A41F1EDE6500D0E18D /* Colors.swift in Sources */,
 				767366A21F1EDD4D00D0E18D /* ColorsViewController.swift in Sources */,
+				767366A61F1EE19000D0E18D /* ColorDetailViewController.swift in Sources */,
 				767366791F1EDC8300D0E18D /* Colors_With_Navigation.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
